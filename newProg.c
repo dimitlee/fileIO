@@ -8,8 +8,9 @@
 /*insert_at writes the string buf into the file with descriptor
   fd, without overwriting the bytes that are already at the 
   offset where it is going to be written. n is the length 
-  of string to be written. Thisis an we
+  of string to be written.
  */
+// This ils an sfj
 int insert_at(int fd, off_t offset, char* buf, int n){
   
   //get the size of the file
